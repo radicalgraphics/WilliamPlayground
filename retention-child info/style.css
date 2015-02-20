@@ -1,0 +1,17 @@
+/*
+Theme Name:     retention-child
+Description:    retention-child powered by batamanta
+Author:         perrywil
+Template:       twentyeleven
+*/
+
+@import url("../retention/style.css");
+
+#site-title a{
+	font-style: arial !important;
+	font-size: 4em;
+}
+
+#site-description {
+	color: #ffffff !important;
+}
