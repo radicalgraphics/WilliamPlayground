@@ -1,0 +1,29 @@
+== Peak Changelog ==
+
+
+
+= 02 Feb 2014 - version 1.0.1 =
+
+* MODIFIED:
+
+- style.css - changed the z-index value for the .isotope-item class, to make the portfolio thumbnails appear on initial load, on iOS Safari browser. 
+
+
+
+= 03 Feb 2014 - version 1.0.2 =
+
+* MODIFIED:
+
+- style.css - added the “width: auto !important” code to the .wp-caption class, to make the images with captions fully responsive. 
+
+
+
+= 14 Feb 2014 - version 1.0.3 =
+
+* MODIFIED:
+
+- style.css - added the “!important” value to the .gallery class, for the theme’s bottom margin to override the default value, given by WordPress. 
+- functions.php - modified the “tgm_cpt_search” function, to eliminate the problems it causes with the search in the Media tab of the WordPress admin panel. 
+- /plugins/portfolio-content/portfolio-post-type.php - modified the “add_taxonomy_filters” function, to eliminate the problems it causes with the portfolio search, on the back-end. 
+
+

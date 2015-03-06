@@ -1,0 +1,29 @@
+/*
+Theme Name:     Peak child
+Description:    Carlos cabeza
+Author:         perrywil
+Template:       peak-Theme
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../peak-Theme/style.css");
+.omsc-accordion {
+    border-top: 0px solid !important;
+   }
+
+   .omsc-toggle {
+    border: 0px solid !important;
+   }
+
+   .omsc-toggle-title {
+   	border-bottom: 0px solid !important;
+   }
+
+   .omsc-toggle-title:hover, .omsc-toggle.omsc-expanded .omsc-toggle-title {
+   background: transparent !important;
+   }
+
+   .search-item {
+display: none;
+}
