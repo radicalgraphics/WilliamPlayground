@@ -1,0 +1,95 @@
+body {
+background-image: url(../images/iterStar_bg.jpg);
+background-repeat: no-repeat;
+background-size: 100% 34%;
+}
+
+.logo-space {
+	width: 100%;
+	height: 200px;
+}
+.radical-logo2 {
+	width: 18%;
+	height: auto;
+}
+
+iframe{
+	position: relative;
+    left: 260px;
+    top: -15px;
+ }
+
+.video-space {
+	width: 100%;
+	height: 340px;
+}
+
+.space-baground {
+background-image: url(../images/space.png);
+top: 100px;
+}
+
+.banner-space {
+	width: 100%;
+	height: 200px;
+}
+
+.left-slider-space {
+	width: 100%;
+	height: 200px;
+}
+
+.review {
+	color: #F9F4F9;
+	text-align: center;
+}
+
+.right-slider-space {
+	width: 100%;
+	height: 200px;
+}
+
+.radical-logo {
+	width: 40%;
+	height: auto;
+}
+
+.space-bottom-baground {
+	background-color: #0E2F4A;
+}
+
+.left-features-slider {
+	width: 100%;
+	height: 200px;
+	background-color: 
+}
+
+.right-features-slider {
+	width: 100%;
+	height: 200px;
+}
+
+.left-screenshot-slider {
+	width: 100%;
+	height: 200px;
+}
+
+.right-screenshot-slider {
+	width: 100%;
+	height: 200px;
+}
+
+.left-special-features {
+	width: 100%;
+	height: 200px;
+}
+
+.right-special-features {
+	width: 100%;
+	height: 200px;
+}
+
+.footer-content {
+	width: 100%;
+	height: 200px;
+}
