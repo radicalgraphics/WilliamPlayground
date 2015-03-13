@@ -49,6 +49,7 @@ top: 100px;
 	height: 200px;
 }
 
+
 .radical-logo {
 	width: 40%;
 	height: auto;
@@ -69,9 +70,24 @@ top: 100px;
 	height: 200px;
 }
 
+.text-carrousel {
+    color: white;
+    text-align: center;
+}
+
 .left-screenshot-slider {
 	width: 100%;
 	height: 200px;
+}
+
+.screenshots {
+	color: #F9F4F9;
+	text-align: center;
+}
+
+.screenshot-description {
+	color: #F9F4F9;
+	text-align: center;
 }
 
 .right-screenshot-slider {
@@ -88,6 +104,36 @@ top: 100px;
 	width: 100%;
 	height: 200px;
 }
+
+
+
+
+.left-socialmedia {
+	width: 100%;
+	height: 200px;
+}
+
+.margin-social {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social-size {
+	width: 15%;
+	height: auto;
+}
+
+.right-socialmedia {
+	width: 100%;
+	height: 200px;
+}
+
+.socialmedia-description {
+	color: #F9F4F9;
+	text-align: center;
+}
+
+
 
 .footer-content {
 	width: 100%;
