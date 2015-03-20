@@ -1,8 +1,36 @@
+@font-face {
+	font-family: "Orbitron-Medium";
+src: url(../fonts/Orbitron-Medium.ttf);
+}
+
+
 body {
 background-image: url(../images/iterStar_bg.jpg);
 background-repeat: no-repeat;
 background-size: 100% 34%;
+font-family: "Orbitron-Medium";
+
 }
+
+.navbar {
+		background-color: black;
+		color: white;
+}
+
+.glyphicon-home {
+		font-size: 3em;
+}
+
+.navbar-text-left {
+	margin-top: 20px;
+}
+
+.navbar-badge {
+
+
+}
+
+
 
 .logo-space {
 	width: 100%;
@@ -133,9 +161,42 @@ top: 100px;
 	text-align: center;
 }
 
+.footer {
+background-color: black;
+color: #F9F4F9;
 
-
-.footer-content {
+}
+.left-footer-content {
 	width: 100%;
 	height: 200px;
+}
+
+.left-footer-logo {
+	width: 80%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.center-footer-content {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 16px;
+}
+
+.footer-links {
+  font-size: 10px;
+}
+
+
+.right-footer-content {
+	width: 100%;
+	height: 200px;
+}
+
+.right-footer-logo {
+	width: 72%;
+	height: auto;
+	margin-top: 20px;
 }
