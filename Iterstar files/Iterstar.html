@@ -6,21 +6,46 @@
 <!-- Navbar -->
 </head>
 <body>
-		<div class="container">
+		<div class="container-fluid">
 		<header class= "navbar navbar-default navbar-static-top well">
      		<nav role="navigation" class="navbar">
      			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                	<a href="index.html"><i class='glyphicon glyphicon-home navbar-brand'></i></a>
-                	<p class="navbar-text-left">Get it now!</p>
+                	<a href="index.html"><i class='glyphicon glyphicon-home navbar-brand padding-right:1.000em'></i></a>
+                	<p class="navbar-text-left" style="padding-right:1.000em">Get it now!</p>
 				</div>
 
-				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+				<div class="hidden-xs col-sm-8 col-md-8 col-lg-8">
                 <a href="#" target="_blank">
-                <img class="navbar-badge" src="Images/badge-app-store.png">
+                <img class="navbar-badge logo-responsive"style="padding-right:1.000em" src="Images/badge-app-store.png">
+                </a>
+				<a href="#" target="_blank">
+                <img class="navbar-badge logo-responsive" style="padding-right:1.000em" src="Images/badge-google-play.png">
+                </a>
+				<a href="#" target="_blank">
+                <img class="navbar-badge logo-responsive"style="padding-right:1.000em" src="Images/badge-amazon.png">
+                </a>
+                <a href="#" target="_blank">
+                <img class="navbar-badge logo-responsive" style="padding-right:1.000em" src="Images/badge-steam.png">
+                </a>
+				</div>
+
+				<div class="visible-xs">
+                <a href="#" target="_blank">
+                <img class="navbar-badge logo-responsive"style="padding-right:1.000em" src="Images/badge-app-store-small.png">
+                </a>
+				<a href="#" target="_blank">
+                <img class="navbar-badge logo-responsive"style="padding-right:1.000em" src="Images/badge-google-play-small.png">
+                </a>
+				<a href="#" target="_blank">
+                <img class="navbar-badge logo-responsive"style="padding-right:1.000em" src="Images/badge-amazon-small.png">
+                </a>
+                <a href="#" target="_blank">
+                <img class="navbar-badge logo-responsive"style="padding-right:1.000em" src="Images/badge-steam-small.png">
+                </a>
 				</div>
 
 				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            	<p class="navbar-text-right">Get it now!</p>
+            	<p class="navbar-text-right">Out now!</p>
 				</div>
 
     	 	</nav>
@@ -34,14 +59,14 @@
 			<div class="logo-space">
 				<div class="text-center logo-responsive">
                     <a href="www.radicalgraphics.com">
-                    	<img class="radical-logo2" src="Images/logo2.png"></a>
+                    	<img class="Monkey-logo" src="Images/Monkey-logo.png"></a>
                 </div>
 		</div>
 	</div>
 </div>
 
 <!-- video space -->
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   	<div class="video-space">
@@ -54,7 +79,7 @@
 <!-- banner space -->
 <div class="space-baground">
 <div class="container">
-	<div class="row">
+	<div class="row hidden-xs hidden-sm">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 	<div class="banner-space">banner space
 			</div>
@@ -64,7 +89,7 @@
 <!-- slider space -->
 <div class="container">
 	<div class="row">
-<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+<div class="col-sm-6 col-md-6 col-lg-6">
 	<div class="left-slider-space">
 		<h2 class="review">Reviews</h2>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -96,8 +121,8 @@
     </div>
 			</div>
 		</div>
-<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-	<div class="right slider space">
+<div class="col-sm-6 col-md-6 col-lg-6">
+	<div class="right-slider-space">
 		<div class="text-center logo-responsive">
                     	<img class="radical-logo" src="Images/logo.png"></a>
                 </div>
@@ -111,45 +136,45 @@
      <div class="container">
 	      <div class="row">
 	           <div id="featuresCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
 	                     <div class="left-features-slider">
 						            <!-- Carousel items -->
 							        <div class="carousel-inner">
-							            <div class="active item" style="height: 98px;" data-features-text="0">
-							                <h2 class="review">Image 1</h2>
+							            <div class="active item" data-features-text="0" >
+							                <img class="conceptArt-img-1" src="Images/ConceptArt.jpg">
 							            </div>
-							            <div class="item" style="height: 98px;" data-features-text="1">
-							                <h2 class="review">Image 2</h2>
+							            <div class="item" data-features-text="1">
+							                <img class="conceptArt-img-2" src="Images/ConceptArt2.jpg">
 							            </div>
-							            <div class="item" style="height: 98px;" data-features-text="2">
-							                <h2 class="review">Image 3</h2>
+							            <div class="item" data-features-text="2">
+							                <img class="conceptArt-img-3" src="Images/iterStar_bg.jpg">
 							            </div>
 							        </div>
                           </div>
 					</div>
-                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                     <div class=" col-sm-6 col-md-6 col-lg-6">
 	                      <div class="right-features-slider">
                           <!-- Carousel text -->
                           <div class="text-carrousel">
 			                <div class="carousel-text-item" style="display: block;">
 							      <p>
-							       Compra Radical<br> <br>Compra Bonos de Radical
+							       Designing and rendering our hero!<br> <br> Find the magic
 							      </p>
 			                </div>
 						    <div class="carousel-text-item" style="display: none;">
 								 <p>
-								 Bla bla monkey bla bla
+								 Iter concept Art
 								 </p>
 								 <p>
-								 Si claro lo que tu digas
+								first drawing
 								 </p>
 							</div>
                             <div class="carousel-text-item" style="display: none;">
 								 <p>
-								 Web in progress, no pises que te resbalas
+								 Concept art of the wild world
 								 </p>
 								 <p>
-								 Es un pajaro, es un avion, es un mono en un cohete
+								 Iter will be visiting it soon
 								 </p>
 							</div>	
 			             </div>
@@ -168,7 +193,7 @@
 <div class="container">
 	<div class="row">
 		<div id="screenshotsCarousel" class="carousel slide" data-ride="carousel">
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-sm-6 col-md-6 col-lg-6">
 				<div class="left-screenshot-slider">
 					<h2 class="screenshots">screenshots</h2>
 					<p class="screenshot-description">
@@ -182,18 +207,18 @@
 					</ol>
 				</div>
 			</div>
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-sm-6 col-md-6 col-lg-6">
 				<div class="right-screenshot-slider">
 <!-- Carousel items -->
 					 <div class="carousel-inner">
-						  <div class="active item" style="height: 98px;">
-							   <h2 class="review">Screenshot 1</h2>
+						  <div class="active item">
+							   <img class="screenshot-img" src="Images/screenshot_saturday_1.jpg">
 						  </div>
-					      <div class="item" style="height: 98px;">
-							   <h2 class="review">Screenshot 2</h2>  
+					      <div class="item">
+							   <img class="screenshot-img" src="Images/screenshot_saturday_2.jpg"> 
 						  </div>
-						  <div class="item" style="height: 98px;">
-							    <h2 class="review">Screenshot 3</h2>
+						  <div class="item">
+							    <img class="screenshot-img" src="Images/screenshot_saturday_3.jpg">
 						  </div>
 					</div>
 				</div>
@@ -205,7 +230,7 @@
 <div class="container">
 	<div class="row">
 		<div id="merchandisingCarousel" class="carousel slide" data-ride="carousel">
-		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+		<div class="col-sm-6 col-md-6 col-lg-6">
 			<div class="left-special-features">
 		<!-- Carousel items -->
 				 <div class="carousel-inner">
@@ -218,7 +243,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+		<div class="col-sm-6 col-md-6 col-lg-6">
 			<div class="right-special-features">
 		<!-- Carousel text -->
 				<h2 class="review">Buy our stuff</h2>
@@ -250,7 +275,7 @@
 <!-- Social -->
 <div class="container">
 	<div class="row">
-         <div class=" col-sm-6 col-md-6 col-lg-6">
+         <div class="col-sm-6 col-md-6 col-lg-6">
 			  <div class="left-socialmedia">
 <a href="https://twitter.com/radicalgraph1cs" target="_blank">
                 <img class="margin-social social-size" src="Images/twitter.png">
@@ -263,7 +288,7 @@
             </a>
 </div>
 			  </div>
-        <div class=" col-sm-6 col-md-6 col-lg-6">
+        <div class="col-sm-6 col-md-6 col-lg-6">
 			<div class="right-socialmedia">
 				<h2 class="review">Follow Us!!</h2>
 			    <p class="socialmedia-description">
