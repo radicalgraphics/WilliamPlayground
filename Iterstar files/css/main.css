@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "Orbitron-Medium";
-src: url(../fonts/Orbitron-Medium.ttf);
+	font-family: "orbitron-medium";
+src: url(../fonts/orbitron-medium.ttf);
 }
 
 
@@ -8,7 +8,7 @@ body {
 background-image: url(../images/iterStar_bg.jpg);
 background-repeat: no-repeat;
 background-size: 100% 34%;
-font-family: "Orbitron-Medium";
+font-family: "orbitron-medium";
 
 }
 
@@ -86,7 +86,7 @@ top: 100px;
 }
 
 .radical-logo {
-	width: 35%;
+	width: 27%;
 	height: auto;
 }
 
@@ -233,7 +233,7 @@ color: #F9F4F9;
 
 @media (max-width: 1200px) {
 
-.Monkey-logo{
+.monkey_logo{
 	width: 27%;
 	height: auto;
 	}
@@ -241,7 +241,7 @@ color: #F9F4F9;
 
 @media (max-width: 990px) {
 
-.Monkey-logo{
+.monkey_logo{
 	width: 35%;
 	height: auto;
 	}
